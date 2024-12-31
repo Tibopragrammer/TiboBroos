@@ -1,0 +1,1867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list and notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book Notes and List</h1>
+        <nav>
+            <ul>
+                <li class='hidden'><a href="home.html">Home</a></li>
+                <li class='hidden'><a href="#">Book Notes</a></li>
+                <li class='hidden'><a href="Kali Linux/">Kali Linux blog</a></li>
+                <li class='hidden'><a href="wetenschap/index.html">Wetenschap blog</a></li>
+                <li class='hidden'><a href="citaten.html">Citaten</a></li>
+                <li class='hidden'><a href="inzichten/inzichten.html">Inzichten</a></li>
+            </ul>
+            <span style="font-size:30px;cursor:pointer" onclick="toggleNav()">&#9776;</span>
+              <select id="sortSelect">
+                <option value="default">Sort by Default</option>
+                <option value="titleAsc">Title (A-Z)</option>
+                <option value="titleDesc">Title (Z-A)</option>
+                <option value="authorAsc">Author (A-Z)</option>
+                <option value="authorDesc">Author (Z-A)</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search...">
+        </nav>
+    </header>
+
+  <div class='hidden' id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="#">Book Notes</a>
+        <a href="inzichten/inzichten.html">Inzichten</a>
+    </div>
+
+    <main class="book-notes-container">
+      <div class="book-summaries">
+            <div class="summary-block">
+                <h2>📚 Book Summaries</h2>
+                <p>Als enthousiaste lezer deel ik hier gedachten en inzichten uit mijn gelezen boeken.</p>
+            </div>
+            <hr class="summary-separator">
+        </div>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Can't Hurt Me.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Can't Hurt Me</h2>
+              <p>Author: David Goggins</p>
+              <p>Genre: Persoonlijke ontwikkeling</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: 12/04/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/The Diary of a CEO.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>The Diary of a CEO</h2>
+                  <p>Author: Steven Bartlett</p>
+                  <p>Genre: Persoonlijke ontwikkeling</p>
+                  <p>Rating: ⭐⭐⭐⭐⭐</p>
+                  <p>score: 9/10</p>
+                  <p>Completed: 22/07/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Atomic-Habits.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Atomic Habits</h2>
+                <p>Author: James Clear</p>
+                <p>Genre: Self-help book</p>
+                <p>Rating: ⭐⭐⭐⭐⭐</p>
+                <p>score: 9/10</p>
+                <p>Completed: 16/08/2023</p>
+                <h3>Summary</h3>
+                <p>Atomic Habits van James Clear is een uitgebreide, praktische gids over hoe je je gewoontes kunt veranderen en elke dag 1% beter kunt worden. Het boek "Atomic Habits" biedt strategieën voor het ontwikkelen van goede gewoontes. De eerste wet is om de gewoonte zichtbaar te maken, de tweede wet is om het aantrekkelijk te maken, de derde wet is om het gemakkelijk te maken en de vierde wet is om het bevredigend te maken. Het boek bespreekt ook geavanceerde tactieken, zoals het kiezen van de juiste gewoonte en het verminderen van wrijving om gewoontes gemakkelijker te maken.</p>
+                <h3>Action-points</h3>
+                <p>- Maak een gewoontescorekaart om bewuster te worden van je gedrag </p>
+                <p>- Maak een implementatie-intentie om een nieuwe gewoonte aan een specifieke tijd en plaats te verbinden</p>
+                <p>- Verbind een nieuwe gewoonte aan een andere gewoonte om het aantrekkelijker te maken</p>
+                <p>- Sluit je aan bij een cultuur waarin je gewenste gedrag het normale gedrag is en je al iets gemeen hebt met de groep</p>
+                <p>- Creëer een omgeving waarin het juiste doen zo gemakkelijk mogelijk is</p>
+                <p>- Gebruik de tweeminutenregel om uitstelgedrag te verminderen</p>
+                <p>- Automatiseer je gewoontes om gedrag in de toekomst zeker te stellen</p>
+                <p>- Zorg ervoor dat een gewoonte meteen beloond wordt om de kans te vergroten dat het gedrag de volgende keer wordt herhaald</p>
+                <p>- Houd je gewoontes bij om te meten of je een gewoonte hebt volgehouden</p>
+                <a href='./html boeken/atomic-habits.html' class="read-more-button">Lees meer</a>
+            </div>
+          </article>
+        </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/fysica.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Fysica</h2>
+                <p>Author: Lieven Scheire</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐⭐⭐</p>
+                <p>score: 9/10</p>
+                <p>Completed: 01/08/2022</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/The 4-Hour Work Week.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>The 4-Hour Work Week</h2>
+                <p>Author: Timothy Ferriss</p>
+                <p>Genre: self-improvement</p>
+                <p>Rating: ⭐⭐⭐⭐⭐</p>
+                <p>score: 9/10</p>
+                <p>Completed: 12/09/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+              <ol>
+                  <li>
+                      <h2>Minder is geen luiheid:</h2>
+                      <ul>
+                          <li>Afwisselen tussen activiteit en rust is nodig om te overleven en te gedijen.</li>
+                          <li>Leven wordt productiever en plezieriger door alleen te werken wanneer je het meest effectief bent.</li>
+                          <li>Minder zinloos werk doen, zodat je je kunt concentreren op belangrijkere zaken, is GEEN luiheid.</li>
+                          <li>Focus op productiviteit in plaats van druk bezig zijn.</li>
+                          <li>Als je iets niet kunt definiëren of ernaar kunt handelen, vergeet het dan.</li>
+                          <li>Perfectie is niet toevoegen, maar ook niets meer wegnemen.</li>
+                          <li>Druk zijn wordt vaak gebruikt om cruciale maar ongemakkelijke handelingen te vermijden.</li>
+                          <li>Overweldigd zijn is vaak even onproductief als niets doen.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Werk slim:</h2>
+                      <ul>
+                          <li>Vermijd werk omwille van werk, doe het minimale voor maximaal effect.</li>
+                          <li>Vervang de vraag "Hoe gaat het?" door "Hoe kan ik helpen?"</li>
+                          <li>Leer voorstellen te doen en oplossingen aan te bieden.</li>
+                          <li>Vraag om vergeving, niet om toestemming.</li>
+                          <li>Actie brengt niet altijd geluk, maar er is geen geluk zonder actie.</li>
+                          <li>Zoek advies bij mensen die hebben bereikt wat jij wilt.</li>
+                          <li>Reflecteer als je aan de kant van de meerderheid staat.</li>
+                          <li>Leef niet volgens standaardtrajecten als het niet bij je past.</li>
+                          <li>Controleer je e-mail niet 's ochtends vroeg en voltooi belangrijke taken vóór 11.00 uur.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Angst en ongemak:</h2>
+                      <ul>
+                          <li>Definieer je nachtmerrie en overwin de angst voor het onbekende.</li>
+                          <li>Wat je het meest vreest, is vaak wat je moet doen.</li>
+                          <li>Neem risico's en experimenteer buiten de norm.</li>
+                          <li>Accepteer het ergste geval en handel ernaar.</li>
+                          <li>Timing is zelden perfect; wacht niet op ideale omstandigheden.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Leven:</h2>
+                      <ul>
+                          <li>Geniet van het leven en voel je goed over jezelf.</li>
+                          <li>Stel jezelf de vraag: "Zou ik willen doen wat ik vandaag ga doen als het mijn laatste dag was?"</li>
+                          <li>Onthoud dat je gaat sterven en vermijd de valkuil van verliesangst.</li>
+                          <li>Wees niet bang om buiten de mogelijkheden te leven.</li>
+                          <li>Als je tot de ontdekking komt dat je deel uitmaakt van de meerderheid, wordt het tijd om een stap terug te doen en eens goed na te denken.</li>
+                        <li>Zodra je zegt dat je ook genoegen neemt met minder, is dat precies wat je zult krijgen in het leven.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Start je eigen bedrijf:</h2>
+                      <ul>
+                          <li>Vind een markt voordat je een product ontwerpt.</li>
+                          <li>Wees eigenaar in plaats van werknemer.</li>
+                          <li>Begin klein en denk groot.</li>
+                          <li>Wees winstgevend in een niche in plaats van een kleine vis in een grote vijver.</li>
+                          <li>Wees onrealistisch; er is minder concurrentie voor grotere doelen.</li>
+                          <li>Vind een markt voordat je een product maakt.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Werk aan de belangrijkste dingen:</h2>
+                      <ul>
+                          <li>Belangrijkste acties zijn zelden comfortabel.</li>
+                          <li>Vraag jezelf af: "Zou ik tevreden zijn met mijn dag als dit het enige is dat ik vandaag bereik?"</li>
+                          <li>Maak nooit meer dan twee missiekritieke taken per dag.</li>
+                          <li>Denk onafhankelijk, voor jezelf. Wees de schaker, niet het schaakstuk.</li>
+                          <li>Voer belangrijke taken uit voordat je je met onbelangrijke zaken bezighoudt.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Doen waar je blij van wordt:</h2>
+                      <ul>
+                          <li>Ontdek wat je opwindt en streef dat na.</li>
+                          <li>Maak tijdlijnen voor dromen en doelen.</li>
+                          <li>Erken dat inactiviteit niet het doel is; doe waar je blij van wordt.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>Storingen:</h2>
+                      <ul>
+                          <li>Fouten maken is essentieel voor vooruitgang.</li>
+                          <li>Word een expert door alle mogelijke fouten te maken.</li>
+                          <li>Wees een onruststoker en bied excuses aan als je fouten maakt.</li>
+                          <li>Er zijn veel misstappen begaan door stil te blijven staan.</li>
+                          <li>Daden leiden misschien niet altijd tot geluk, maar er bestaat geen geluk zonder daden.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>De deskundige bouwer:</h2>
+                      <ul>
+                          <li>Geef gratis seminars, sluit je aan bij handelsorganisaties, lees topboeken en schrijf artikelen.</li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <h2>80/20-regel:</h2>
+                      <ul>
+                          <li>80% van de resultaten komt voort uit 20% van de inspanning en tijd.</li>
+                          <li>Identificeer bronnen van problemen en geluk met de 80/20-regel.</li>
+                      </ul>
+                  </li>
+              </ol>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Deining in de ruimtetijd.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Deining in de ruimtetijd</h2>
+              <p>Author: Govert Schilling</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 30/10/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Show Your Work.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Show Your Work</h2>
+            <p>Author: Austin Kleon</p>
+            <p>Genre: Creativity</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+            <p>score: 9/10</p>
+            <p>Completed: 03/11/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Ego is de vijand.jpg" alt="Book Cover">
+              <div class="note-content">
+                <h2>Ego is de vijand</h2>
+                <p>Author: Ryan Holiday</p>
+                <p>Genre: Self-help book</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 9/10</p>
+                <p>Completed: 02/07/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Steve Jobs.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Steve Jobs</h2>
+            <p>Author: Walter Isaacson</p>
+            <p>Genre: Biografie</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+            <p>score: 9/10</p>
+            <p>Completed: 16/11/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      
+
+      
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/De psychologie van geld.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>De psychologie van geld</h2>
+                <p>Author: Morgan Housel</p>
+                <p>Genre: economie</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 27/12/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+
+
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/we-hebben-geen-idee.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>We hebben geen idee?!</h2>
+              <p>Author: Daniel Whiteson</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 07/03/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      
+
+
+      
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/De 48 wetten van de macht.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>De 48 wetten van de macht</h2>
+              <p>Author: Robert Greene</p>
+              <p>Genre: Sociale vaardigheden</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: 10/01/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Never Finished.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Never Finished</h2>
+              <p>Author: David Goggins</p>
+              <p>Genre: Persoonlijke ontwikkeling</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: 21/04/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/The Almanack of Naval Ravikant.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>The Almanack of Naval Ravikant</h2>
+                  <p>Author: Eric Jorgenson</p>
+                  <p>Genre: Persoonlijke ontwikkeling</p>
+                  <p>Rating: ⭐⭐⭐⭐⭐</p>
+                  <p>score: 9/10</p>
+                  <p>Completed: 16/12/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+      
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Invloed.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Invloed</h2>
+              <p>Author: Robert Cialdini</p>
+              <p>Genre: Communicatie</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: 26/11/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+            <div class="principle">
+                <h2>1. Wederkerigheid (Reciprocation)</h2>
+                <p>Mensen voelen de verplichting om vriendelijkheid met vriendelijkheid te beantwoorden. Voorbeelden zijn het kopen van lunch voor iemand die het later terugbetaalt en gratis monsters die je aanzetten tot aankopen.</p>
+            </div>
+
+            <div class="principle">
+                <h2>2. Toewijding en consistentie (Commitment & Consistency)</h2>
+                <p>Mensen streven naar consistentie met hun eerdere keuzes en toezeggingen. Openbare toezeggingen, zoals een huwelijksgelofte, creëren druk om consistent te handelen.</p>
+            </div>
+
+            <div class="principle">
+                <h2>3. Sociaal bewijs (Social Proof)</h2>
+                <p>Mensen hebben de neiging het gedrag van anderen als correct te beschouwen en ernaar te handelen. Voorbeeld: het bestellen van een drankje omdat anderen dat ook doen.</p>
+            </div>
+
+            <div class="principle">
+                <h2>4. Sympathie (Liking)</h2>
+                <p>Mensen zeggen sneller "ja" tegen verzoeken van mensen die ze aardig vinden. Dit kan worden beïnvloed door fysieke aantrekkelijkheid, gelijkenis, complimenten, contact, samenwerking en associatie.</p>
+            </div>
+
+            <div class="principle">
+                <h2>5. Autoriteit (Authority)</h2>
+                <p>Mensen hebben de neiging autoriteitsfiguren te volgen. Dit kan worden afgeleid uit titels, kleding, enz. Reclame maakt gebruik van dit principe met beroemdheidsbevorderingen.</p>
+            </div>
+
+            <div class="principle">
+                <h2>6. Schaarste (Scarcity)</h2>
+                <p>Kansen lijken waardevoller wanneer ze beperkt zijn. Beperkte tijd aanbiedingen, deadlines en het idee van schaarste worden gebruikt om snel beslissingen te nemen op basis van kwaliteit.</p>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Succes door groot denken.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Succes door groot denken</h2>
+              <p>Author: David J. Schwartz</p>
+              <p>Genre: Succes</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: /12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Sapiens.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Sapiens</h2>
+              <p>Author: Yuval Noah Harari</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 15/12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+            <ol>
+                <li>
+                    <h2>Impact van Vuur:</h2>
+                    <ul>
+                        <li>Vuur markeerde een significante kloof tussen mens en dier.</li>
+                        <li>Dieren zijn gebonden aan fysieke kracht, terwijl vuur de mens gehoorzaamheid over een onbegrensde kracht gaf.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Neanderthalers en Sapiens:</h2>
+                    <ul>
+                        <li>Neanderthalers hadden gespierde lichamen, grote hersenen en waren aangepast aan koude klimaten.</li>
+                        <li>Recente ontdekkingen tonen aan dat Neanderthalers geavanceerder waren dan eerder gedacht.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Interactie tussen Sapiens en Andere Menselijke Populaties:</h2>
+                    <ul>
+                        <li>Kruisingstheorie suggereert vermenging met Neanderthalers en erectus.</li>
+                        <li>Vervangingstheorie stelt dat Sapiens andere populaties verving zonder vermenging.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Biologie en Geschiedenis na Cognitieve Revolutie:</h2>
+                    <ul>
+                        <li>Biologie bepaalt basisgrenzen van gedrag en capaciteiten.</li>
+                        <li>Mensen kunnen binnen deze grenzen een opmerkelijke verscheidenheid aan activiteiten ontplooien.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Overgang Cognitieve Revolutie naar Agrarische Revolutie:</h2>
+                    <ul>
+                        <li>Focus op dagelijks leven van voorouders.</li>
+                        <li>Verklaring voor hedendaagse eetgewoonten in evolutionaire aanpassingen aan schaarste.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Vaardigheden van Oerverzamelaars vs. Moderne Mens:</h2>
+                    <ul>
+                        <li>Oerverzamelaars hadden diepere kennis van de natuur en meer vaardigheden.</li>
+                        <li>Moderne mens vertrouwt vaak op specialisten en heeft minder brede kennis.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Afname Gemiddeld Sapiensbrein:</h2>
+                    <ul>
+                        <li>Aanwijzingen dat het gemiddelde brein is afgenomen sinds de tijd van verzamelaars.</li>
+                        <li>Mensen vertrouwen nu meer op vaardigheden van anderen.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Definitie van Religie:</h2>
+                    <ul>
+                        <li>Religie is een systeem van normen en waarden gebaseerd op geloof in een bovenmenselijke orde.</li>
+                        <li>Het onderscheidt zich van wetenschap, voetbal en economische systemen.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Economische Groei volgens Adam Smith:</h2>
+                    <ul>
+                        <li>Smith benadrukte herinvestering van winst in productie voor groei.</li>
+                        <li>In zijn tijd revolutionair concept van economische groei.</li>
+                    </ul>
+                </li>
+            </ol>
+          </div>
+        </article>
+      </article>
+
+      
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Elon Musk.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Elon Musk</h2>
+            <p>Author: Walter Isaacson</p>
+            <p>Genre: Biografie</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+            <p>score: 9,5/10</p>
+            <p>Completed: 20/12/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <h2>Elon Musk Citaten:</h2>
+            <ol>
+              <li>Musk's quote uit Saturday Night Live benadrukt zijn rol bij het heruitvinden van elektrische auto's en het sturen van mensen naar Mars, waarbij hij de perceptie van een "ontspannen, normale vent" uitdaagt.</li>
+              <li>De quote van Steve Jobs benadrukt het idee dat degenen die geloven dat ze de wereld kunnen veranderen, degenen zijn die dat ook daadwerkelijk doen.</li>
+            </ol>
+
+            <h2>Leren van Falen:</h2>
+            <ol>
+              <li>Musk pleit voor een iteratieve aanpak van ontwerp, waarbij de nadruk ligt op snelle prototyping, testen en het herzien van prototypes totdat succes wordt bereikt.</li>
+              <li>Volgens Musk gaat het er niet om problemen te vermijden, maar om ze snel te identificeren en op te lossen.</li>
+            </ol>
+
+            <h2>Leiderschapsinzichten:</h2>
+            <ol>
+              <li>Musk waarschuwt tegen verlamming door de angst om anderen tegen te spreken, waarbij hij benadrukt dat de focus moet liggen op het algehele succes van het bedrijf.</li>
+              <li>Verschillen in strategie kwamen naar voren, met name in het uitbesteden van de assemblage van Tesla's Roadster, waarbij Musk zijn voorkeur uitsprak voor Gigafactories en verticale integratie.</li>
+            </ol>
+
+            <h2>Innovatieve Oplossingen:</h2>
+            <ol>
+              <li>Musk's onconventionele benadering van het oplossen van productie-uitdagingen omvatte de snelle bouw van een tentgebaseerde assemblagelijn voor de Tesla Model 3, waarbij creatief probleemoplossen werd getoond.</li>
+              <li>De tijdelijke faciliteit in Fremont toonde Musk's vermogen om obstakels te overwinnen en resultaten te leveren binnen strakke tijdschema's.</li>
+            </ol>
+
+            <h2>Productie-algoritme:</h2>
+            <ol>
+              <li>Het productie-algoritme van Musk bestaat uit vijf kernprincipes: kritische evaluatie van vereisten, minimaliseren van procesonderdelen, vereenvoudigen en optimaliseren, versnellen van de cyclustijd en automatiseren, waarbij automatisering de laatste stap is.</li>
+              <li>Musk benadrukt te wachten tot het einde van het ontwikkelingsproces, vereisten kritisch te bekijken, onnodige componenten te elimineren en initiële uitdagingen te overwinnen voordat automatisering wordt geïmplementeerd.</li>
+            </ol>
+
+            <h2>Aanvullende Inzichten:</h2>
+            <ol>
+              <li>Praktijkervaring is cruciaal voor technische managers, waarbij managers van softwareteams minstens 20% van hun tijd aan programmeren moeten besteden.</li>
+              <li>Musk ontmoedigt kameraadschap dat constructieve kritiek belemmert, moedigt aan om fouten toe te geven zonder overmoedigheid en benadrukt een maniakaal gevoel van urgentie als fundamenteel voor hun werk.</li>
+              <li>Musk adviseert om managers te omzeilen bij het oplossen van problemen en oplossingen te zoeken op het niveau net onder de managementposities.</li>
+              <li>Bij het aannemen geeft Musk de voorkeur aan een positieve instelling boven vaardigheden, waarbij hij gelooft dat vaardigheden kunnen worden aangeleerd, maar het veranderen van een houding een "hersentransplantatie" vereist.</li>
+              <li>Musk gelooft dat de enige wetten die moeten worden gevolgd, die zijn die door de natuur worden opgelegd, en beschouwt al het andere als slechts aanbevelingen.</li>
+            </ol>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+        <article class="book-note">
+        <img src="boeken/Shoe Dog.jpg" alt="Book Cover">
+        <div class="note-content">
+            <h2>Shoe Dog</h2>
+            <p>Author: Phil Knight</p>
+            <p>Genre: Biografie</p>
+            <p>Rating: ⭐⭐⭐⭐</p>
+            <p>score: 9/10</p>
+            <p>Completed: 29/12/2024</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+        </div>
+      </article>
+    </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Hoe je vrienden maakt en mensen beinvloedt.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Hoe je vrienden maakt en mensen beinvloedt</h2>
+              <p>Author: Dale Carnegie</p>
+              <p>Genre: self-help</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 9/10</p>
+              <p>Completed: 15/01/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/DNA.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>DNA</h2>
+              <p>Author: Lieven Scheire</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8/10</p>
+              <p>Completed: 16/04/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Het ontstaan van de tijd.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Het ontstaan van de tijd</h2>
+              <p>Author: Thomas Hertog</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8/10</p>
+              <p>Completed: 23/01/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Diep werk.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Diep werk</h2>
+              <p>Author: Cal Newport</p>
+              <p>Genre: Self-help</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 05/02/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/De dagelijkse stoïcijn.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>De dagelijkse stoïcijn</h2>
+                <p>Author: Ryan Holiday</p>
+                <p>Genre: Filosofie</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8,5/10</p>
+                <p>Completed: 29/07/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/waarom-heeft-niemand-mij-dit-eerder-verteld.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Waarom heeft niemand mij dit eerder verteld?</h2>
+              <p>Author: Julie Smith</p>
+              <p>Genre: Self-help</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 27/02/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/I Will Teach You To Be Rich.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>I Will Teach You To Be Rich</h2>
+              <p>Author: Ramit Sethi</p>
+              <p>Genre: Economie</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 25/04/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/chemie.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Chemie</h2>
+                <p>Author: Hetty Helsmoortel</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 08/06/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Sterrenkunde voor mensen met haast.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Sterrenkunde voor mensen met haast</h2>
+              <p>Author: Neil Degrasse Tyson</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 27/03/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/wat als 2.0.png" alt="Book Cover">
+            <div class="note-content">
+                <h2>Wat als? 2.0</h2>
+                <p>Author: Randall Munroe</p>
+                <p>Genre: Humor</p>
+                <p>Rating: ⭐⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 01/02/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/de gebroeders wright.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>De gebroeders Wright</h2>
+                <p>Author: David Mccullough</p>
+                <p>Genre: Biografieën</p>
+                <p>Rating: ⭐⭐⭐⭐⭐</p>
+                <p>Completed: 26/05/2023</p>
+                <h3>Summary</h3>
+                <p>score: 8,5/10</p>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Wilskracht.jpg" alt="Book Cover">
+              <div class="note-content">
+                <h2>Wilskracht</h2>
+                <p>Author: Matthieu Bonne</p>
+                <p>Genre: Self-help</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8,5/10</p>
+                <p>Completed: 03/11/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Power of Ignored Skills.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Power of Ignored Skills</h2>
+              <p>Author: Manoj Tripathi</p>
+              <p>Genre: Persoonlijke ontwikkeling</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8/10</p>
+              <p>Completed: 02/04/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/de antwoorden op de grote vragen.png" alt="Book Cover">
+            <div class="note-content">
+                <h2>De antwoorden op de grote vragen</h2>
+                <p>Author: Stephen Hawking</p>
+                <p>Genre: Autobiografie</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 06/07/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Brief History Of Time.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Brief History Of Time</h2>
+                <p>Author: Stephen Hawking</p>
+                <p>Genre: Science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 27/05/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/AI.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>A.I.</h2>
+              <p>Author: Lieven Scheire</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 03/12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Weten wat je niet weet.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Weten wat je niet weet</h2>
+              <p>Author: Adam Grant</p>
+              <p>Genre: Persoonlijke ontwikkeling</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8,5/10</p>
+              <p>Completed: 23/02/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Oppenheimer.png" alt="Book Cover">
+          <div class="note-content">
+              <h2>Oppenheimer : de triomf en tragedie van de vader van de atoombom</h2>
+              <p>Author: Kai Bird, Martin J. Sherwin</p>
+              <p>Genre: Biografie</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7/10</p>
+              <p>Completed: 05/05/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/De laatste lente van de dinosauriërs.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>De laatste lente van de dinosauriërs</h2>
+                <p>Author: Melanie During</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 18/05/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Steal like an artist.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Steal like an artist</h2>
+            <p>Author: Austin Kleon</p>
+            <p>Genre: Creativiteit</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+            <p>score: 9/10</p>
+            <p>Completed: 18/11/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Waarom niemand kwantum begrijpt.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Waarom niemand kwantum begrijpt
+            en iedereen er toch iets over moet weten</h2>
+            <p>Author: Frank Verstraete</p>
+            <p>Genre: Science</p>
+            <p>Rating: ⭐⭐⭐⭐</p>
+            <p>score: 7,5/10</p>
+            <p>Completed: 29/12/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/De edele kunst van not giving a fuck.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>De edele kunst van not giving a fuck</h2>
+            <p>Author: Mark Manson</p>
+            <p>Genre: Psychologie</p>
+            <p>Rating: ⭐⭐⭐⭐</p>
+            <p>score: 8/10</p>
+            <p>Completed: 31/12/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Building a Second Brain.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Building a Second Brain</h2>
+            <p>Author: Tiago Forte</p>
+            <p>Genre: Self-help</p>
+            <p>Rating: ⭐⭐⭐⭐</p>
+            <p>score: 7,5/10</p>
+            <p>Completed: 15/04/2024</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Relativiteitstheorie.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Relativiteitstheorie</h2>
+              <p>Author: Karel Van Acoleyen</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,8/10</p>
+              <p>Completed: 31/10/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Het verhaal van de maan.png" alt="Book Cover">
+            <div class="note-content">
+                <h2>Het verhaal van de maan</h2>
+                <p>Author: Fatoumata Kebe</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 6/10</p>
+                <p>Completed: 12/07/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+        </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Eat That Frog!.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Eat That Frog!</h2>
+                <p>Author: Brian Tracy</p>
+                <p>Genre: Self-help book</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 10/11/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+        </article>
+
+        <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Onbegrensd.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Onbegrensd</h2>
+              <p>Author: Jim Kwik</p>
+              <p>Genre: Self-help book</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8/10</p>
+              <p>Completed: 21/12/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+      </article>
+
+
+
+
+
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/De geknipte genen.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>De geknipte genen</h2>
+                <p>Author: Hetty Helsmoortel</p>
+                <p>Genre: Science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 19/08/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>1. De genetische blauwdruk van allerei levende wezens op onze planeet bestaat uit DNA.</p>
+                <p>2. Het DNA is samengesteld uit de basen A, T, C en G.</p>
+                <p>3. Deze vier basen van het DNA zijn verstrengeld in een dubbele helixstructuur.</p>
+                <p>4. Chromosomen vertegenwoordigen uitgestrekte segmenten van het DNA-molecuul.</p>
+                <p>5. DNA maakt RNA en RNA maakt eiwitten.</p>
+                <p>6. Eiwitten vervullen de essentiële taken binnen cellen.</p>
+                <p>7. Een gen vormt een stuk DNA dat de instructies draagt voor het creëren van RNA of een eiwit met een specifieke functie.</p>
+                <p>8. Als er een fout in een gen aanwezig is, wordt deze fout ook weerspiegeld in het resulterende RNA en mogelijk het gevormde eiwit.</p>
+                <p>9. Mutaties hebben de potentie om de eigenschappen van een levend organisme te wijzigen.</p>
+                <p>10. Een technologische methode die in staat is om snel, nauwkeurig en kostenefficiënt mutaties te induceren in het DNA van elk organisme, kan aanzienlijke gevolgen hebben.</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/niets.jpg" alt="Book Cover">
+          <div class="note-content">
+            <h2>Niets</h2>
+            <p>Author: Jeremy Webb</p>
+            <p>Genre: Science</p>
+            <p>Rating: ⭐⭐⭐</p>
+            <p>score: 7/10</p>
+            <p>Completed: 16/10/2023</p>
+            <h3>Summary</h3>
+            <p>This is a brief summary of the book...</p>
+            <h3>Notes</h3>
+            <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Alles wat je wilt weten over hardlopen.jpg" alt="Book Cover">
+              <div class="note-content">
+                <h2>Alles wat je wilt weten over hardlopen</h2>
+                <p>Author: Mariska van Sprundel</p>
+                <p>Genre: Sport</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 29/11/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Lopen.jpg" alt="Book Cover">
+              <div class="note-content">
+                <h2>Lopen</h2>
+                <p>Author: Herbert Steffny</p>
+                <p>Genre: Sport</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 30/10/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/echt zwaar.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Echt zwaar</h2>
+                <p>Author: Martijn van Calmthout</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 6,5/10</p>
+                <p>Completed: 30/07/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/wiskunde.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Wiskunde</h2>
+                <p>Author: Ann Dooms</p>
+                <p>Genre: Science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 7,5/10</p>
+                <p>Completed: 22/08/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/gettingthingsdone.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Getting things done</h2>
+                <p>Author: David Allen</p>
+                <p>Genre: productivity</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8,5/10</p>
+                <p>Completed: 27/08/2023</p>
+                <h3>Summary</h3>
+                <p>"Getting Things Done fungeert als een gids voor het bereiken van stressvrije productiviteit. Deze methode helpt u bij het creëren van een georganiseerd systeem van lijsten, herinneringen en wekelijkse overzichten. Hierdoor kunt u uw geest bevrijden van de last om taken en verantwoordelijkheden te onthouden, waardoor u zich volledig kunt concentreren op de taak die zich op dat moment aandient."</p>
+                <h3>Notes</h3>
+                <p>1. Gebruik een ‘inbox’ om dingen buiten je hoofd op te slaan en gefocust te blijven.</p>
+              <p>2. Maak een lijst met ‘volgende acties’ voor al uw projecten, zodat u niet in het moment hoeft na te denken.</p>
+              <p>3. Doe een wekelijkse beoordeling van alles.</p>
+              <p>4. Als je iets binnen 2 minuten kan doe dat dan direct.</p>
+              <p>5. Maak een later/misschien lijst.</p>
+              <p>6. Maak een wachten op-lijst</p>
+              <p>7. Een lijst met wat je met andere wilt bespreken</p>
+              <p>8. Vraag aan het eind van een vergadering 'Dus, wat is hier de Eerstvolgende Actie?'</p>
+              <p>9. De agenda voor toekomstige mogelijkheden gebruiken: Herinneringen aan projecten die gestart moeten worden, evenementen waaraan je misschien wilt deelnemen en Katalysatoren voor de besluitvorming</p>
+            </div>
+          </article>
+        </article>
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Insecten.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Insecten</h2>
+                <p>Author: Lieven Scheire, Peter Berx</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 29/08/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Gevonden!.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Gevonden!</h2>
+                <p>Author: Steven Stroeykens</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 25/07/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Krijg grip op je denken.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Krijg grip op je denken</h2>
+              <p>Author: Joseph Nguyen</p>
+              <p>Genre: Psychologie</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 08/03/2024</p>
+              <h3>Summary</h3>
+            <p>1. Denken is de belangrijkste oorzaak van lijden.</p>
+            <p>2. Negatieve emoties komen voort uit ons eigen denken. Alles is terug te voeren op ons denken, maar we kunnen dat loslaten en terugkeren naar innerlijke rust, liefde en vreugde.</p>
+            <p>3. We leven in een waarneming van de werkelijkheid gecreëerd door ons denken.</p>
+            <p>4. Denken is de oorzaak, niet het gevolg van ervaringen.</p>
+            <p>5. Gedachten in ons hoofd zijn geen feiten.</p>
+            <p>6. Ons denken heeft controle als we geloven wat we denken. Loslaten is loslaten van lijden.</p>
+            <p>7. Gevoelens zijn feedback, nodigen uit tot dieper inzicht.</p>
+            <p>8. In een staat van niet-denken zijn we in een flow, één met het universum.</p>
+            <p>9. Denken en gedachten verschillen; denken veroorzaakt lijden, gedachten zijn goddelijke downloads.</p>
+            <p>10. Denken is een biologische reactie, gericht op overleven, niet op voldoening.</p>
+            <p>11. Luister naar oneindige intelligentie voor inzichten die onze beperkte geest overstijgen.</p>
+            <p>12. Universele intelligentie is de energie van liefde, innerlijke rust, vreugde; onze natuurlijke staat.</p>
+            <p>13. Loslaten van denken geeft toegang tot nieuwe inzichten en positieve emoties.</p>
+            <p>14. Innerlijke rust, liefde, vreugde zijn onze standaardstaat; denken leidt tot afgescheidenheid.</p>
+            <p>15. Eén gedachte of inzicht verwijderd van groter bewustzijn en diepere liefde.</p>
+            <p>16. Geest is van nature helder; loslaten van denken brengt terug naar 'fabrieksinstellingen.'</p>
+            <p>17. Niets is intrinsiek mis; denken is de oorzaak van lijden.</p>
+            <p>18. Vertrouwen op intuïtie en oneindige intelligentie geeft toegang tot inzichten.</p>
+            <p>19. Praktische tips om te stoppen met denken, waaronder het creëren van een niet-denken omgeving.</p>
+            <p>20. Stappen om niet-denken toe te passen in werk en het overwinnen van destructieve gewoonten.</p>
+            <p>21. Omgeving creëren die niet-denken bevordert door denk-triggers weg te nemen.</p>
+            <p>22. Overwinnen van destructieve gedragingen door bewustwording en loslaten van overtuigingen.</p>
+            <p>23. Stappen om met opkomende negatieve gevoelens om te gaan en terug te keren naar niet-denken.</p>
+          
+
+          </div>
+        </article>
+      </article>
+
+      
+      <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/taop.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>The Art of Procrastination</h2>
+                <p>Author: John Perry</p>
+                <p>Genre: science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 6,5/10</p>
+                <p>Completed: 30/08/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/Einstein's Fridge.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Einstein's Fridge: The Science of Fire, Ice and the Universe</h2>
+                <p>Author: Paul Sen</p>
+                <p>Genre: Science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 11/05/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/The alchemist.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>The alchemist</h2>
+                <p>Author: Paulo Coelho</p>
+                <p>Genre: Filosofie</p>
+                <p>Rating: ⭐⭐⭐⭐</p>
+                <p>score: 8/10</p>
+                <p>Completed: 12/06/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/talking to strangers.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>Talking to Strangers</h2>
+                <p>Author: Malcolm Gladwell</p>
+                <p>Genre: Self-help book</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 6,5/10</p>
+                <p>Completed: 20/09/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+      
+        <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/12 regels voor het leven.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>12 regels voor het leven</h2>
+                <p>Author: Jordan Peterson</p>
+                <p>Genre: Self-help book</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 7/10</p>
+                <p>Completed: 06/10/2023</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Hit Refresh.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Hit Refresh</h2>
+              <p>Author: Satya Nadella</p>
+              <p>Genre: Managementboeken</p>
+              <p>Rating: ⭐⭐⭐</p>
+              <p>score: 6,5/10</p>
+              <p>Completed: 02/11/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/A Brief History of Black Holes.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>A Brief History of Black Holes</h2>
+              <p>Author: Dr Becky Smethurst</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 8/10</p>
+              <p>Completed: 25/03/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Waarom water sneller kookt in het vliegtuig.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Waarom water sneller kookt in het vliegtuig</h2>
+              <p>Author: Brian Clegg</p>
+              <p>Genre: science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 02/09/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/The artist’s way.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>The artist’s way</h2>
+              <p>Author: Julia Cameron</p>
+              <p>Genre: Persoonlijke ontwikkeling</p>
+              <p>Rating: ⭐⭐⭐</p>
+              <p>score: 6/10</p>
+              <p>Completed: 31/01/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Code rood.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>Code rood</h2>
+                  <p>Author: Toon Verlinden</p>
+                  <p>Genre: Science</p>
+                  <p>Rating: ⭐⭐⭐⭐</p>
+                  <p>score: 8/10</p>
+                  <p>Completed: 19/08/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+
+      
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Theo de Beir.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>De kracht van onderhandelen</h2>
+              <p>Author: Theo de Beir</p>
+              <p>Genre: onderhandelen</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 30/11/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Mindfulness.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Het overgave-experiment</h2>
+              <p>Author: Michael A. Singer</p>
+              <p>Genre: Mindfulness</p>
+              <p>Rating: ⭐⭐⭐</p>
+              <p>score: 6,5/10</p>
+              <p>Completed: 05/12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Feel-Good Productivity.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>Feel-Good Productivity</h2>
+                  <p>Author: Ali Abdaal</p>
+                  <p>Genre: Persoonlijke ontwikkeling</p>
+                  <p>Rating: ⭐⭐⭐</p>
+                  <p>score: 7/10</p>
+                  <p>Completed: 17/12/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Chimp Paradox.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Chimp Paradox</h2>
+              <p>Author: Professor Steve Peters</p>
+              <p>Genre: Self-help</p>
+              <p>Rating: ⭐⭐⭐</p>
+              <p>score: 7/10</p>
+              <p>Completed: 30/02/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Machtige krachten.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Machtige krachten</h2>
+              <p>Author: Martijn van Calmthout</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐</p>
+              <p>score: 7/10</p>
+              <p>Completed: 11/03/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/De Wim Hof methode.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>De Wim Hof methode</h2>
+              <p>Author: Wim Hof</p>
+              <p>Genre: Mindfulness</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7/10</p>
+              <p>Completed: 21/12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+
+      <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Omringd door idioten.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Omringd door idioten</h2>
+              <p>Author: Thomas Erikson</p>
+              <p>Genre: Psychologie</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7/10</p>
+              <p>Completed: 22/12/2023</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/De 5 frustraties van teamwork.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>De 5 frustraties van teamwork</h2>
+                  <p>Author: Patrick Lencioni</p>
+                  <p>Genre: Management</p>
+                  <p>Rating: ⭐⭐⭐⭐</p>
+                  <p>score: 7/10</p>
+                  <p>Completed: 08/08/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/The Millionaire Fastlane.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>The Millionaire Fastlane</h2>
+                  <p>Author: Mj Demarco</p>
+                  <p>Genre: Economie</p>
+                  <p>Rating: ⭐⭐⭐⭐</p>
+                  <p>score: 8,5/10</p>
+                  <p>Completed: 17/12/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/How to Talk to Anyone.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>How to Talk to Anyone</h2>
+                  <p>Author: Leil Lowndes</p>
+                  <p>Genre: Psychologie</p>
+                  <p>Rating: ⭐⭐⭐⭐</p>
+                  <p>score: 8/10</p>
+                  <p>Completed: //2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Make Your Bed.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>Make Your Bed</h2>
+                  <p>Author: Admiral William H. McRaven</p>
+                  <p>Genre: Persoonlijke ontwikkeling</p>
+                  <p>Rating: ⭐⭐⭐</p>
+                  <p>score: 7/10</p>
+                  <p>Completed: 16/12/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+        <article class="book-note">
+              <article class="book-note">
+              <img src="boeken/Leonardo da Vinci.jpg" alt="Book Cover">
+              <div class="note-content">
+                  <h2>Leonardo da Vinci</h2>
+                  <p>Author: Walter Isaacson</p>
+                  <p>Genre: Persoonlijke ontwikkeling</p>
+                  <p>Rating: ⭐⭐⭐</p>
+                  <p>score: 6/10</p>
+                  <p>Completed: 19/12/2024</p>
+                  <h3>Summary</h3>
+                  <p>This is a brief summary of the book...</p>
+                  <h3>Notes</h3>
+                  <p>Here are my notes and thoughts about the book...</p>
+              </div>
+            </article>
+          </article>
+
+          <article class="book-note">
+            <article class="book-note">
+            <img src="boeken/What If.jpg" alt="Book Cover">
+            <div class="note-content">
+                <h2>What If?</h2>
+                <p>Author: Randall Munroe</p>
+                <p>Genre: Science</p>
+                <p>Rating: ⭐⭐⭐</p>
+                <p>score: 6/10</p>
+                <p>Completed: 19/12/2024</p>
+                <h3>Summary</h3>
+                <p>This is a brief summary of the book...</p>
+                <h3>Notes</h3>
+                <p>Here are my notes and thoughts about the book...</p>
+            </div>
+          </article>
+        </article>
+
+        <article class="book-note">
+          <article class="book-note">
+          <img src="boeken/Sterrenstof.jpg" alt="Book Cover">
+          <div class="note-content">
+              <h2>Sterrenstof</h2>
+              <p>Author: Neil Degrasse Tyson</p>
+              <p>Genre: Science</p>
+              <p>Rating: ⭐⭐⭐⭐</p>
+              <p>score: 7,5/10</p>
+              <p>Completed: 19/12/2024</p>
+              <h3>Summary</h3>
+              <p>This is a brief summary of the book...</p>
+              <h3>Notes</h3>
+              <p>Here are my notes and thoughts about the book...</p>
+          </div>
+        </article>
+      </article>
+
+      
+
+
+      
+        
+      
+        <!-- Voeg meer boeknotities toe zoals dit -->
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Book Notes. All rights reserved.</p>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</body>
+</html>
